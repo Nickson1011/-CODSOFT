@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Your Tagline or Profession</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="your-image.jpg" alt="Your Name">
+            <p>Hello! I am [Your Name], a [Your Profession]. I have experience in [Your Key Skills/Expertise]. I am passionate about building creative solutions to solve real-world problems.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="project1-image.jpg" alt="Project 1">
+                <p>A brief description of your project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="project2-image.jpg" alt="Project 2">
+                <p>A brief description of your project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="project3-image.jpg" alt="Project 3">
+                <p>A brief description of your project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <a href="your-resume.pdf" class="resume-link" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
